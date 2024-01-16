@@ -1,0 +1,21 @@
+{
+  "private": "true",
+  "version": "1.0.0",
+  "packageManager": "pnpm@8.14.1",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --cache --ext .js,.ts,.tsx . --fix --ignore-path .gitignore",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.0",
+    "prettier": "^3.2.2",
+    "rollup": "^4.9.5",
+    "typescript": "^5.3.3"
+  }
+}
